@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+}
+.wrap{
+    margin: 0px 15px;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:#f56a6a solid 3px;
+    color: #c9cccf;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+header .head2 h1> span{
+    color: black;
+}
+
+header h1{
+    padding: 0.5em;
+}
+
+.flex-container li{
+    color: black;   
+    padding: 1em;
+}
+
+.flex-container ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #c9cccf solid 2px;
+
+}
+section .sec1{
+    padding: 2em;
+    
+}
+section .sec1>.btn{
+    margin: 0px auto;
+    
+}
+section .sec2{
+    padding: 1.5em;
+    
+}
+section .sec2>img{
+    border-radius: 10px;
+    
+}
+
+section .sec1 h3{
+    padding: 0.6em 0px;
+    color: #c9cccf;
+}
+
+section .sec1 p {
+    padding: 0.5em 0px;
+    color: #c9cccf;
+}
+
+.btn{
+    background-color: white;
+    border-color: #f56a6a;
+    color: #f56a6a;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #f56a6a;
+    color: white;
+}
+
+footer{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer .col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer .col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer>.header{
+    width: 10%;
+    padding: 1em;
+    border-bottom: #f56a6a solid 3px;
+    
+}
+.footer .row1{
+    padding: 10px;
+}
+.footer .row2{
+    padding: 10px;
+}
+footer .row1 .sub{
+    display: flex;
+    flex-direction: row;
+}
+footer .row2 .sub{
+    display: flex;
+    flex-direction: row;
+}
+footer .row2 .sub i{
+    color: #f56a6a;
+    padding: 0.5em;
+    font-size: 2.5em;
+}
+footer .row1 .sub i{
+    color:#f56a6a;
+    padding: 0.5em;
+    font-size: 2.5em;
+}
+
+footer .row1 .sub p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em 0px;
+    color:#99a0a6;
+}
+footer .row2 .sub p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em 0px;
+    color:#99a0a6;
+}
+footer .row1 .sub h3{
+    font-family: 'Open Sans', sans-serif;
+}
+footer .row2 .sub h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
